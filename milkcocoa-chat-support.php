@@ -5,7 +5,7 @@ Plugin URI: http://wordpress.org/plugins/milkcocoa-chat-support/
 Description: Live chat system using Milkcocoa, BaaS platform for building realtime apps.
 Author: Milkcocoa
 Author URI: https://mlkcca.com/
-Version: 1.0.0
+Version: 1.1.0
 Text Domain: milkcocoa-chat-support
 Domain Path: /languages/
 License: GPL-2.0+
@@ -421,23 +421,13 @@ operator {
     }
 
     function load_operator_milkcocoa(){
-
-      wp_register_script('mcs-operator-milkcocoa', 'http://milkcocoa.s3-website-ap-northeast-1.amazonaws.com/v2.0.0/dev/milkcocoa.js', __FILE__);
+      wp_register_script('mcs-operator-milkcocoa', 'http://cdn.mlkcca.com/v2.0.0/milkcocoa.js', __FILE__);
       wp_enqueue_script('mcs-operator-milkcocoa');
-      ?>
-      <!--<script src="http://cdn.mlkcca.com/v2.0.0/milkcocoa.js"></script>-->
-      <!--<script src="http://milkcocoa.s3-website-ap-northeast-1.amazonaws.com/v2.0.0/dev/milkcocoa.js"></script> -->
-      <?php
     }
 
     function load_customer_milkcocoa(){
-
-      wp_register_script('mcs-customer-milkcocoa', 'http://milkcocoa.s3-website-ap-northeast-1.amazonaws.com/v2.0.0/dev/milkcocoa.js', __FILE__);
+      wp_register_script('mcs-customer-milkcocoa', 'http://cdn.mlkcca.com/v2.0.0/milkcocoa.js', __FILE__);
       wp_enqueue_script('mcs-customer-milkcocoa', false, array(), false, true);
-      ?>
-      <!--<script src="http://cdn.mlkcca.com/v2.0.0/milkcocoa.js"></script>-->
-      <!--<script src="http://milkcocoa.s3-website-ap-northeast-1.amazonaws.com/v2.0.0/dev/milkcocoa.js"></script> -->
-      <?php
     }
 
     function show_customer_html(){

@@ -94,3 +94,7 @@ Don't care about phoning home. Milkcocoa only access the following data.
 
 = 1.0 =
 * Initial Release
+
+= 1.1 =
+* Use Milkcocoa production version
+* delete onconnect, onclose

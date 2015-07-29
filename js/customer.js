@@ -1030,24 +1030,24 @@
 
         subscribeOperator($header, chat);
 
-        milkcocoa.onConnected(function(){
-          subscribeOperator($header, chat);
+        // milkcocoa.onConnected(function(){
+        //   subscribeOperator($header, chat);
 
-          milkcocoa.dataStore('master').child(uuid).on('push', function(pushed){
-            chat.controller.subscribeMessage(pushed);
-          });
+        //   milkcocoa.dataStore('master').child(uuid).on('push', function(pushed){
+        //     chat.controller.subscribeMessage(pushed);
+        //   });
 
-          milkcocoa.dataStore('master').child(uuid).on('send', function(sent){
-            if(sent.value.nowWriting && (sent.value.publisher === 'operator') ) chat.controller._showWritingIcon(sent.value.content); ;
-          });
-        });
+        //   milkcocoa.dataStore('master').child(uuid).on('send', function(sent){
+        //     if(sent.value.nowWriting && (sent.value.publisher === 'operator') ) chat.controller._showWritingIcon(sent.value.content); ;
+        //   });
+        // });
 
-        milkcocoa.onClosed(function(){
-          milkcocoa.dataStore('master').child(uuid).off('push');
-          milkcocoa.dataStore('master').child(uuid).off('send');
-          milkcocoa.dataStore('operator').off('set');
+        // milkcocoa.onClosed(function(){
+        //   milkcocoa.dataStore('master').child(uuid).off('push');
+        //   milkcocoa.dataStore('master').child(uuid).off('send');
+        //   milkcocoa.dataStore('operator').off('set');
 
-        });
+        // });
 
       }, 200);
     }
