@@ -17,7 +17,7 @@ Chat with your visitors for free!
 
 Milkcocoa Chat Support is a Web/Frontend developer-oriented live chat support plugin.
 
-This plugin's code is written in vanilla JavaScript, there's no need additional framework(i.e. jQuery).
+This plugin's code is written in vanilla JavaScript, there's no need additional framework(e.g. jQuery).
 You can change UI styles, directly writing CSS.
 
 **NOTE: This plugin use [Milkcocoa](https://mlkcca.com/en/), BaaS platform for building realtime apps. You need Milkcocoa account(for free).**
@@ -87,6 +87,7 @@ Don't care about phoning home. Milkcocoa only access the following data.
 1. customer view
 2. operator view
 3. milkcocoa settings
+4. about system
 
 
 == Changelog ==
