@@ -1,0 +1,189 @@
+# Copyright (C) 2015 Milkcocoa Chat Support
+# This file is distributed under the same license as the Milkcocoa Chat Support package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Milkcocoa Chat Support 0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/milkcocoa-chat-"
+"support\n"
+"POT-Creation-Date: 2015-07-24 12:07:59+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: milkcocoa-chat-support.php:105 milkcocoa-chat-support.php:106
+#: milkcocoa-chat-support.php:197
+msgid "Milkcocoa Settings"
+msgstr ""
+
+#: milkcocoa-chat-support.php:128
+msgid "Are you active?"
+msgstr ""
+
+#: milkcocoa-chat-support.php:165
+msgid "Option saved."
+msgstr ""
+
+#: milkcocoa-chat-support.php:176
+msgid "Invalid token. Please check your secret key is correct."
+msgstr ""
+
+#: milkcocoa-chat-support.php:179
+msgid ""
+"Origin denied. Please set your website-URL in “Milkcocoa’s admin page > "
+"Settings > Allowed Origin”."
+msgstr ""
+
+#: milkcocoa-chat-support.php:182
+msgid "Unhandled error. Please refresh and input it again."
+msgstr ""
+
+#: milkcocoa-chat-support.php:199
+msgid ""
+"1. Create account of <a href=\"https://mlkcca.com/en/\">Milkcocoa</a>.<br>\n"
+"2. Log in.<br>\n"
+"3. Set your website-URL(below) in <span style=\"font-style: italic;"
+"\">“Milkcocoa’s admin page > Settings > Allowed Origin”</span>(Delete "
+"origins already exist(<code>localhost</code>, <code>127.0.0.1</code>))"
+msgstr ""
+
+#: milkcocoa-chat-support.php:204
+msgid ""
+"After register Allowed Origin, <br>\n"
+"4. Copy app_id, <code>var milkcocoa = new MilkCocoa(\"<span style=\"font-"
+"style: italic;\">this-string</span>.mlkcca.com\");</code> in <span style="
+"\"font-style: italic;\">“Milkcocoa’s admin page > Overview”</span>, and "
+"paste it below.<br>\n"
+"5. Copy secret key, in <span style=\"font-style: italic;\">“Milkcocoa’s "
+"admin page > Auth > In case of authrocket”</span>, and paste it below."
+msgstr ""
+
+#: milkcocoa-chat-support.php:231
+msgid "Save"
+msgstr ""
+
+#: milkcocoa-chat-support.php:234
+msgid ""
+"After register app_id and secret key,<br>\n"
+"6. Copy code below, and paste and save in <span style=\"font-style: italic;"
+"\">“Milkcocoa’s admin page > Security Rule”</span>.<br>\n"
+"<strong>Make sure to set security rules. It is important to make chats "
+"secure.</strong>"
+msgstr ""
+
+#: milkcocoa-chat-support.php:273
+msgid "When you use it in plural users, add code below in Security rule."
+msgstr ""
+
+#: milkcocoa-chat-support.php:278 milkcocoa-chat-support.php:282
+#: milkcocoa-chat-support.php:286
+msgid "The Wordpress user name that you want to give authority to"
+msgstr ""
+
+#: milkcocoa-chat-support.php:292
+msgid ""
+"You can change styles adding CSS to following classes. Please use <code>!"
+"important</code> to override default styles."
+msgstr ""
+
+#: milkcocoa-chat-support.php:296
+msgid "Header"
+msgstr ""
+
+#: milkcocoa-chat-support.php:298
+msgid "Title"
+msgstr ""
+
+#: milkcocoa-chat-support.php:300
+msgid "Unread Count"
+msgstr ""
+
+#: milkcocoa-chat-support.php:300
+msgid ""
+"(unread count > 1: use <code>.mcs-chat.is-highlighten .mcs-theme-count</"
+"code>)"
+msgstr ""
+
+#: milkcocoa-chat-support.php:302
+msgid "Hide Chat"
+msgstr ""
+
+#: milkcocoa-chat-support.php:304
+msgid "Background"
+msgstr ""
+
+#: milkcocoa-chat-support.php:306
+msgid "Oppenent Message"
+msgstr ""
+
+#: milkcocoa-chat-support.php:306
+msgid ""
+"when you change <code>background-color</code>, you should also change "
+"<code>border-right-color</code>"
+msgstr ""
+
+#: milkcocoa-chat-support.php:308
+msgid "My message"
+msgstr ""
+
+#: milkcocoa-chat-support.php:308
+msgid ""
+"when you change <code>background-color</code>, you should also change "
+"<code>border-left-color</code>"
+msgstr ""
+
+#: milkcocoa-chat-support.php:310
+msgid "Horizontal Rule"
+msgstr ""
+
+#: milkcocoa-chat-support.php:312
+msgid "Input Field"
+msgstr ""
+
+#: milkcocoa-chat-support.php:315
+msgid "Examples: "
+msgstr ""
+
+#: milkcocoa-chat-support.php:371
+msgid "Please leave a message and E-mail, we will reply later."
+msgstr ""
+
+#: milkcocoa-chat-support.php:371
+msgid "Start chatting"
+msgstr ""
+
+#: milkcocoa-chat-support.php:371
+msgid "Leave a message"
+msgstr ""
+
+#: milkcocoa-chat-support.php:371
+msgid "Press ‘Enter’ to send message."
+msgstr ""
+
+#: milkcocoa-chat-support.php:406
+msgid "You cannot restore the deleted chat. Are you sure to delete this chat?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Milkcocoa Chat Support"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.example.com/plugin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Live chat system using Milkcocoa, BaaS platform for building realtime apps."
+"\\n"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Milkcocoa"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://mlkcca.com/"
+msgstr ""
