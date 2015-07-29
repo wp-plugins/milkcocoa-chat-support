@@ -2,10 +2,7 @@
 /*
 Plugin Name: Milkcocoa Chat Support
 Plugin URI: http://wordpress.org/plugins/milkcocoa-chat-support/
-Description: Live chat system using Milkcocoa, BaaS platform for building realtime apps.\n
-It’s free, but the number of messages and connections are limited in Milkcocoa’s free plan.\n
-- Messages -> 100,000\n
-- Connections -> 20
+Description: Live chat system using Milkcocoa, BaaS platform for building realtime apps.
 Author: Milkcocoa
 Author URI: https://mlkcca.com/
 Version: 1.0.0

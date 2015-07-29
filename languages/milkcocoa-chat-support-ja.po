@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-07-27 13:31+0900\n"
+"PO-Revision-Date: 2015-07-29 13:12+0900\n"
 "Language-Team: \n"
 "X-Generator: Poedit 1.8.3\n"
 "Last-Translator: Milkcocoa <contact@mlkcca.com>\n"
@@ -196,11 +196,11 @@ msgid "Milkcocoa Chat Support"
 msgstr "Milkcocoa Chat Support"
 
 #. Plugin URI of the plugin/theme
-msgid "http://www.example.com/plugin"
-msgstr ""
+msgid "http://wordpress.org/plugins/milkcocoa-chat-support/"
+msgstr "http://wordpress.org/plugins/milkcocoa-chat-support/"
 
 #. Description of the plugin/theme
-msgid "Live chat system using Milkcocoa, BaaS platform for building realtime apps.\\n"
+msgid "Live chat system using Milkcocoa, BaaS platform for building realtime apps."
 msgstr ""
 "Milkcocoaというサービスを使ったチャットサポート機能をサイトに埋め込むプラグインです。"
 
