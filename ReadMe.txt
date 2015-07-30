@@ -55,7 +55,7 @@ You(Operator) loggged in by WordPress user name and access all customers' messag
 
 [You can see image of this system screenshot No.4.](/plugins/milkcocoa-chat-support/screenshots/)
 
-Don't care about phoning home. Milkcocoa only access the following data.
+Don't care about phoning home. Milkcocoa access the only following data.
 
 - Your WordPress user name
 - Chat message data
@@ -68,15 +68,15 @@ Don't care about phoning home. Milkcocoa only access the following data.
 1. Upload `milkcocoa-chat-support.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
----The following steps is also written in 'Milkcocoa Settings' menu in Wordpress.---
+---The following steps are also written in 'Milkcocoa Settings' menu in WordPress.---
 
 3. Create account of [Milkcocoa](https://mlkcca.com/en/)
 4. Log in to Milkcocoa and create app
 5. Set your website URL in 'Milkcocoa’s admin page > Settings > Allowed Origin'(Delete origins already exist(`localhost`, `127.0.0.1`))
-6. Copy app_id, `var milkcocoa = new MilkCocoa("this-string.mlkcca.com");` in 'Milkcocoa’s admin page > Overview', and paste it to 'Milkcocoa Settings' menu in Wordpress.
-7. Copy secret key, in 'Milkcocoa’s admin page > Auth > In case of authrocket', and paste it to 'Milkcocoa Settings' menu in Wordpress.
-8. Copy code at 'Milkcocoa Settings' menu in Wordpress, and paste and save in 'Milkcocoa’s admin page > Security Rule'.
-9. Go to 'Mlk Chat Support' menu in Wordpress and start chat.
+6. Copy app_id, `var milkcocoa = new MilkCocoa("this-string.mlkcca.com");` in 'Milkcocoa’s admin page > Overview', and paste it to 'Milkcocoa Settings' menu in WordPress.
+7. Copy secret key, in 'Milkcocoa’s admin page > Auth > In case of authrocket', and paste it to 'Milkcocoa Settings' menu in WordPress.
+8. Copy code at 'Milkcocoa Settings' menu in WordPress, and paste and save in 'Milkcocoa’s admin page > Security Rule'.
+9. Go to 'Mlk Chat Support' menu in WordPress and start chat.
 
 
 == Frequently Asked Questions ==
